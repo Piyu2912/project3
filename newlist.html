@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"
+      integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="main">
+        <div class="card item1">
+          <div class="task">
+            <p class="head1"><b>Tasks</b>Lists</p>
+          </div>
+          <div class="add">
+            <i class="fa-solid fa-circle-plus"></i>
+            <a href="./newlist.html"
+              ><p style="color: black" class="head1">AddList</p></a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card1" id="one">
+            <a href="./task.html"><h3>Trip to Paris</h3></a>
+            <hr />
+            <div class="list">
+              <p><del>Completed Task</del></p>
+              <div class="check">
+                <input type="checkbox" name="pending" required />
+                <label for="pending">Pending Task</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card1" id="two">
+            <h3>My ToDo List</h3>
+            <hr />
+            <div class="list">
+              <p><del>Completed Task</del></p>
+              <div class="check">
+                <input type="checkbox" name="pending" required />
+                <label for="pending">Pending Task</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card1" id="three">
+            <h3>My ToDo List</h3>
+            <hr />
+            <div class="list">
+              <p><del>Completed Task</del></p>
+              <div class="check">
+                <input type="checkbox" name="pending" required />
+                <label for="pending">Pending Task</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card"></div>
+      </div>
+    </div>
+    <div class="foreground">
+      <a href="./index.html"><i class="fas fa-long-arrow-alt-left"></i></a>
+      <h3 class="newList">Add New List</h3>
+      <textarea name="Name" id="list" cols="50" rows="1"></textarea>
+      <button>ADD</button>
+    </div>
+  </body>
+</html>
